@@ -251,9 +251,9 @@ dPairGap=0.25
 dPairViaGap=0.25
 [PcbFrame]
 version=1
-[sheetnames]
-1=ad0ec92f-f1e7-4753-a504-faee588b5855:Sheetad0ec92f-f1e7-4753-a504-faee588b5855
 [LibeditFrame]
 version=1
 [ModEditFrame]
 version=1
+[sheetnames]
+1=8c719299-d276-446d-9105-6a996500d673:Sheet8c719299-d276-446d-9105-6a996500d673

@@ -63,6 +63,33 @@ X ~ 2 0 -150 50 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
+# Primary-rescue_2x_Battery_Cell-WirelessPower
+#
+DEF Primary-rescue_2x_Battery_Cell-WirelessPower BT 0 0 N N 1 F N
+F0 "BT" 100 100 50 H V L CNN
+F1 "Primary-rescue_2x_Battery_Cell-WirelessPower" 100 0 50 H V L CNN
+F2 "" 0 60 50 V I C CNN
+F3 "" 0 60 50 V I C CNN
+DRAW
+S -90 70 90 60 0 1 0 F
+S -62 47 58 27 0 1 0 F
+S -90 -580 90 -590 1 1 0 F
+S -62 -603 58 -623 1 1 0 F
+P 2 0 1 0 0 30 0 0 N
+P 2 0 1 0 0 70 0 100 N
+P 2 0 1 10 20 135 60 135 N
+P 2 0 1 10 40 155 40 115 N
+P 2 1 1 0 0 -620 0 -650 N
+P 2 1 1 0 0 -580 0 -550 N
+P 2 1 1 10 20 -515 60 -515 N
+P 2 1 1 10 40 -495 40 -535 N
+X + 1 0 200 100 D 50 50 1 1 P
+X + 2 0 -450 100 D 50 50 1 1 P
+X - 3 0 -750 100 U 50 50 1 1 P
+X - 4 0 -100 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Switch_SW_DPST
 #
 DEF Switch_SW_DPST SW 0 0 Y N 1 F N
@@ -129,33 +156,6 @@ P 5 0 1 0 90 -70 70 -90 50 -50 90 -70 90 -70 F
 X E 1 100 -200 100 U 50 50 1 1 P
 X B 2 -200 0 225 R 50 50 1 1 I
 X C 3 100 200 100 D 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# WirelessPower_2x_Battery_Cell
-#
-DEF WirelessPower_2x_Battery_Cell BT 0 0 N N 1 F N
-F0 "BT" 100 100 50 H V L CNN
-F1 "WirelessPower_2x_Battery_Cell" 100 0 50 H V L CNN
-F2 "" 0 60 50 V I C CNN
-F3 "~" 0 60 50 V I C CNN
-DRAW
-S -90 70 90 60 0 1 0 F
-S -62 47 58 27 0 1 0 F
-S -90 -580 90 -590 1 1 0 F
-S -62 -603 58 -623 1 1 0 F
-P 2 0 1 0 0 30 0 0 N
-P 2 0 1 0 0 70 0 100 N
-P 2 0 1 10 20 135 60 135 N
-P 2 0 1 10 40 155 40 115 N
-P 2 1 1 0 0 -620 0 -650 N
-P 2 1 1 0 0 -580 0 -550 N
-P 2 1 1 10 20 -515 60 -515 N
-P 2 1 1 10 40 -495 40 -535 N
-X + 1 0 200 100 D 50 50 1 1 P
-X + 2 0 -450 100 D 50 50 1 1 P
-X - 3 0 -750 100 U 50 50 1 1 P
-X - 4 0 -100 100 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #

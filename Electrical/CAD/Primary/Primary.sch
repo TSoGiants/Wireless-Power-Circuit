@@ -18,21 +18,21 @@ Comment7 ""
 Comment8 ""
 Comment9 ""
 $EndDescr
-Connection ~ 4250 1550
-Connection ~ 3400 1550
-Connection ~ 4500 1750
-Connection ~ 5100 1650
-Connection ~ 6800 1750
-Connection ~ 850  1500
-Connection ~ 8050 2100
-Connection ~ 5350 1650
-Connection ~ 4500 1550
 Connection ~ 8050 2550
-Connection ~ 2750 2350
-Connection ~ 7500 1750
+Connection ~ 4500 1750
+Connection ~ 8050 2100
 Connection ~ 3650 1950
+Connection ~ 6800 1750
+Connection ~ 5350 1650
 Connection ~ 3400 1950
+Connection ~ 4500 1550
+Connection ~ 7500 1750
+Connection ~ 2750 2350
+Connection ~ 850  1500
+Connection ~ 3400 1550
+Connection ~ 5100 1650
 Connection ~ 6400 1750
+Connection ~ 4250 1550
 Wire Wire Line
 	850  1000 1000 1000
 Wire Wire Line
@@ -359,7 +359,7 @@ L Device:R_US R4
 U 1 1 5E4FA271
 P 8050 1900
 F 0 "R4" H 8118 1946 50  0000 L CNN
-F 1 "5.1" H 8118 1855 50  0000 L CNN
+F 1 "3.3" H 8118 1855 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 8090 1890 50  0001 C CNN
 F 3 "~" H 8050 1900 50  0001 C CNN
 	1    8050 1900
@@ -392,7 +392,7 @@ L Device:C C2
 U 1 1 5E4CB428
 P 3650 2100
 F 0 "C2" H 3765 2146 50  0000 L CNN
-F 1 "10nF" H 3765 2055 50  0000 L CNN
+F 1 "120pF" H 3765 2055 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 3688 1950 50  0001 C CNN
 F 3 "~" H 3650 2100 50  0001 C CNN
 	1    3650 2100
@@ -414,7 +414,7 @@ L Device:C C4
 U 1 1 5E4FD399
 P 7800 2300
 F 0 "C4" H 7915 2346 50  0000 L CNN
-F 1 "C" H 7915 2255 50  0000 L CNN
+F 1 "39nF" H 7915 2255 50  0000 L CNN
 F 2 "Capacitor_THT:C_Disc_D6.0mm_W2.5mm_P5.00mm" H 7838 2150 50  0001 C CNN
 F 3 "~" H 7800 2300 50  0001 C CNN
 	1    7800 2300
@@ -454,7 +454,7 @@ F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3906.pdf" H 6700 2000 50  000
 	1    0    0    1   
 $EndComp
 $Comp
-L WirelessPower:2x_Battery_Cell BT1
+L Primary-rescue:2x_Battery_Cell-WirelessPower BT1
 U 1 1 5E4BD685
 P 850 1200
 F 0 "BT1" H 968 1016 50  0001 L CNN
